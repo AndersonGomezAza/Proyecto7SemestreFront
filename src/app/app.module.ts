@@ -10,11 +10,15 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
+import { ArrendatariosReadComponent } from './components/arrendatarios-read/arrendatarios-read.component';
+import { PropietariosReadComponent } from './components/propietarios-read/propietarios-read.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MenuComponent
+    MenuComponent,
+    ArrendatariosReadComponent,
+    PropietariosReadComponent
   ],
   imports: [
     BrowserModule,
