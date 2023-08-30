@@ -21,6 +21,10 @@ import { TableSchematicComponent } from './components/schematics/table-schematic
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+import { DashboardSchematicComponent } from './components/schematics/dashboard-schematic/dashboard-schematic.component';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatCardModule } from '@angular/material/card';
+import { MatMenuModule } from '@angular/material/menu';
 
 @NgModule({
   declarations: [
@@ -33,7 +37,8 @@ import { MatSortModule } from '@angular/material/sort';
     ArriendoComponent,
     InmuebleComponent,
     ArreglosLocativosComponent,
-    TableSchematicComponent
+    TableSchematicComponent,
+    DashboardSchematicComponent
   ],
   imports: [
     BrowserModule,
@@ -46,7 +51,10 @@ import { MatSortModule } from '@angular/material/sort';
     MatListModule,
     MatTableModule,
     MatPaginatorModule,
-    MatSortModule
+    MatSortModule,
+    MatGridListModule,
+    MatCardModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
