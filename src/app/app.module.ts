@@ -14,6 +14,8 @@ import { ArrendatariosReadComponent } from './components/arrendatarios-read/arre
 import { PropietariosReadComponent } from './components/propietarios-read/propietarios-read.component';
 import { PagosComponent } from './components/pagos/pagos.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
+import { ArriendoComponent } from './components/arriendo/arriendo.component';
+import { InmuebleComponent } from './components/inmueble/inmueble.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
     ArrendatariosReadComponent,
     PropietariosReadComponent,
     PagosComponent,
-    ProyectosComponent
+    ProyectosComponent,
+    ArriendoComponent,
+    InmuebleComponent
   ],
   imports: [
     BrowserModule,
