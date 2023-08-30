@@ -17,6 +17,10 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { ArriendoComponent } from './components/arriendo/arriendo.component';
 import { InmuebleComponent } from './components/inmueble/inmueble.component';
 import { ArreglosLocativosComponent } from './components/arreglos-locativos/arreglos-locativos.component';
+import { TableSchematicComponent } from './components/schematics/table-schematic/table-schematic.component';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
 
 @NgModule({
   declarations: [
@@ -28,7 +32,8 @@ import { ArreglosLocativosComponent } from './components/arreglos-locativos/arre
     ProyectosComponent,
     ArriendoComponent,
     InmuebleComponent,
-    ArreglosLocativosComponent
+    ArreglosLocativosComponent,
+    TableSchematicComponent
   ],
   imports: [
     BrowserModule,
@@ -38,7 +43,10 @@ import { ArreglosLocativosComponent } from './components/arreglos-locativos/arre
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule
   ],
   providers: [],
   bootstrap: [AppComponent]
