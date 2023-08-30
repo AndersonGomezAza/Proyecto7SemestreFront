@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./propietarios-read.component.css']
 })
 export class PropietariosReadComponent {
-
+  propietarios = "Propietarios"
 }
