@@ -5,9 +5,13 @@
       [opened]="(isHandset$ | async) === false">
     <mat-toolbar>Menu</mat-toolbar>
     <mat-nav-list>
-      <a mat-list-item href="#">Link 1</a>
-      <a mat-list-item href="#">Link 2</a>
-      <a mat-list-item href="#">Link 3</a>
+      <a mat-list-item href="#ArrendatariosList">Arrendatarios</a>
+      <a mat-list-item href="#PropietariosList">Propietarios</a>
+      <a mat-list-item href="#PagosList">Pagos</a>
+      <a mat-list-item href="#ProyectosList">Proyectos</a>
+      <a mat-list-item href="#ArriendosList">Arriendos</a>
+      <a mat-list-item href="#InmueblesList">Inmuebles</a>
+      <a mat-list-item href="#ArreglosLocativosList">Arreglos Locativos</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
@@ -22,7 +26,14 @@
       </button>
       <span>CrMercantilFront</span>
     </mat-toolbar>
-    <app-inmueble></app-inmueble>
-    <app-arriendo></app-arriendo>
+    <div class="componentes">
+      <app-arrendatarios-read id="ArrendatariosList"></app-arrendatarios-read>
+      <app-propietarios-read id="PropietariosList"></app-propietarios-read>
+      <app-pagos id="PagosList"></app-pagos>
+      <app-proyectos id="ProyectosList"></app-proyectos>
+      <app-arriendo id="ArriendosList"></app-arriendo>
+      <app-inmueble id="InmueblesList"></app-inmueble>
+      <app-arreglos-locativos id="ArreglosLocativosList"></app-arreglos-locativos>
+    </div>
   </mat-sidenav-content>
 </mat-sidenav-container>

@@ -10,15 +10,25 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
+import { ArrendatariosReadComponent } from './components/arrendatarios-read/arrendatarios-read.component';
+import { PropietariosReadComponent } from './components/propietarios-read/propietarios-read.component';
+import { PagosComponent } from './components/pagos/pagos.component';
+import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { ArriendoComponent } from './components/arriendo/arriendo.component';
 import { InmuebleComponent } from './components/inmueble/inmueble.component';
+import { ArreglosLocativosComponent } from './components/arreglos-locativos/arreglos-locativos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
+    ArrendatariosReadComponent,
+    PropietariosReadComponent,
+    PagosComponent,
+    ProyectosComponent,
     ArriendoComponent,
-    InmuebleComponent
+    InmuebleComponent,
+    ArreglosLocativosComponent
   ],
   imports: [
     BrowserModule,
