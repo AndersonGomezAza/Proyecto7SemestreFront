@@ -16,6 +16,7 @@ import { PagosComponent } from './components/pagos/pagos.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { ArriendoComponent } from './components/arriendo/arriendo.component';
 import { InmuebleComponent } from './components/inmueble/inmueble.component';
+import { ArreglosLocativosComponent } from './components/arreglos-locativos/arreglos-locativos.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { InmuebleComponent } from './components/inmueble/inmueble.component';
     PagosComponent,
     ProyectosComponent,
     ArriendoComponent,
-    InmuebleComponent
+    InmuebleComponent,
+    ArreglosLocativosComponent
   ],
   imports: [
     BrowserModule,
