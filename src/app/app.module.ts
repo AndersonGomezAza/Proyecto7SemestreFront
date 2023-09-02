@@ -25,6 +25,7 @@ import { DashboardSchematicComponent } from './components/schematics/dashboard-s
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import { MatMenuModule } from '@angular/material/menu';
     MatSortModule,
     MatGridListModule,
     MatCardModule,
-    MatMenuModule
+    MatMenuModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
