@@ -26,6 +26,8 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
 import { HttpClientModule } from '@angular/common/http';
+import { TreeSchematicComponent } from './components/schematics/tree-schematic/tree-schematic.component';
+import { MatTreeModule } from '@angular/material/tree';
 
 @NgModule({
   declarations: [
@@ -39,7 +41,8 @@ import { HttpClientModule } from '@angular/common/http';
     InmuebleComponent,
     ArreglosLocativosComponent,
     TableSchematicComponent,
-    DashboardSchematicComponent
+    DashboardSchematicComponent,
+    TreeSchematicComponent
   ],
   imports: [
     BrowserModule,
@@ -57,6 +60,7 @@ import { HttpClientModule } from '@angular/common/http';
     MatCardModule,
     MatMenuModule,
     HttpClientModule,
+    MatTreeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
